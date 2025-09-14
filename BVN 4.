@@ -1,0 +1,17 @@
+Bước 1. Đổi chữ cái → số (A=0, …, Z=25)
+D = 3, O = 14, H = 7, U = 20, U = 20, H = 7, A = 0, U = 20
+⇒𝑃 = (3,14,7,20,20,7,0,20)
+Bước 2. Cộng khóa 𝑘 =23 rồi lấy mod 26
+  𝐶𝑖= (𝑃𝑖 + 23) mod 26 Ci
+
+(3 + 23) mod 26 = 26 mod 26 = 0 → A
+(14 + 23) mod 26 = 37 mod 26 = 11 → L
+(7 + 23) mod 26 = 30 mod 26 = 4 → E
+(20 + 23) mod 26 = 43 mod 26 = 17 → R
+(20 + 23) mod 26 = 43 mod 26 = 17 → R
+(7 + 23) mod 26 = 30 mod 26 = 4 → E
+(0 + 23) mod 26 = 23 → X
+(20 + 23) mod 26 = 43 mod 26 = 17 → R
+
+Bước 3. Kết quả
+Ciphertext = ALERREXR
